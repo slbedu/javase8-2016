@@ -62,6 +62,13 @@ Scanner scanner = new Scanner(System.in);
 String input = scanner.nextLine();
 ----
 
+Ако искате да трансформирате въведения input в целочислена променлива, може да използвате `Integer.parseInt()` метода:
+
+[source,java]
+----
+int number = Integer.parseInt(input);
+----
+
 == Допълнителни задачи
 
 . Ако играта попадне в ситуация, че няма как да има победител, то програмата трябва да завърши изпълнение още тогава.
